@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg
+	width="100%"
+	height="100%"
+	viewBox="0 0 100 100"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<defs>
+	<path
+		fill="#83f4fc"
+		id="Arrow"
+		d="
+			M50 100
+			L6.698729810778069 25
+			L93.30127018922192,25
+			L50 100
+		"
+	/>
+</defs>
+<g transform="translate(0 -12)" >
+	<use xlink:href="#Arrow" />
+</g>
+
+</svg>
