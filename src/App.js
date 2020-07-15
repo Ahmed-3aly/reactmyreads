@@ -44,9 +44,9 @@ class App extends Component {
 	}
     onMove = (bookId, shelfId) => {
         const { books } = this.state
-        const appendBook = books.find(x => x.Id == bookId)
+        const appendBook = books.find(x => x.Id === bookId)
         if (appendBook) {
-            const appendState = books.filter(x => x.Id != bookId)
+            const appendState = books.filter(x => x.Id !== bookId)
             appendBook.ShelfId = shelfId
             appendState.push(appendBook)
             this.setState({
